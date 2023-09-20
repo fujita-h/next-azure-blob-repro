@@ -13,3 +13,18 @@ TypeError: Expected signal to be an instanceof AbortSignal
     at eN.fetch (C:\projects\personal\next-azure-blob-repro\.next\server\chunks\609.js:2:4247)
     at eN.sendRequest (C:\projects\personal\next-azure-blob-repro\.next\server\chunks\609.js:2:1989)
 ```
+
+## Other versions
+
+- 13.4.19 - **works**
+- 13.4.20-canary.0 - **works**
+- 13.4.20-canary.10 - **works**
+- 13.4.20-canary.15 - **works**
+- 13.4.20-canary.17 - **works**
+- 13.4.20-canary.18 - **works**
+- 13.4.20-canary.19 - **fails**
+- 13.4.20-canary.20 - **fails**
+- 13.4.20-canary.40 - **fails**
+- 13.5.1 - **fails**
+- 13.5.2-canary.2 - **fails**
+- 13.5.2 - **fails**

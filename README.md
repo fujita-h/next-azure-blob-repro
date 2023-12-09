@@ -18,5 +18,12 @@ TypeError: Expected signal to be an instanceof AbortSignal
 ## Other versions
 
 - 14.0.3 - **works**
+- 14.0.4-canary.10 - **works**
+- 14.0.4-canary.16 - **works**
+- 14.0.4-canary.17 - **works**
+- 14.0.4-canary.18 - **works**
+- 14.0.4-canary.22 - **fails**
+- 14.0.4-canary.30 - **fails**
+- 14.0.4-canary.40 - **fails**
 - 14.0.4 - **fails**
 - 14.0.5-canary.4 - **fails**
